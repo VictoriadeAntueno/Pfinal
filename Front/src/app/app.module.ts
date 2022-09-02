@@ -11,6 +11,7 @@ import { EduComponent } from './components/edu/edu.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyComponent } from './components/proy/proy.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
     EduComponent,
     SkillsComponent,
     ProyComponent,
-    FooterComponent
+    FooterComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
